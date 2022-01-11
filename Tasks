@@ -1,4 +1,4 @@
-1)
+1.
 import time
 time.process_time()
 from random import randint
@@ -11,6 +11,7 @@ def spis(array, key):
  return None
 print(spis(x, 546))
 print(time.process_time())
+
 2.
 from random import randint
 import time
@@ -35,6 +36,7 @@ x = sorted(x)
 print(x)
 print(binary_search(x, 3))
 print(time.process_time())
+
 3.
 import time
 time.process_time()
